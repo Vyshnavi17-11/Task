@@ -1,0 +1,36 @@
+/* CSS for App Component */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url('https://images.pexels.com/photos/1906658/pexels-photo-1906658.jpeg?auto=compress&cs=tinysrgb&w=400') ;
+};
+h2 {
+  font-size: 24px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+h2{
+  color: white;
+}
+p{
+  color: aliceblue;
+}
